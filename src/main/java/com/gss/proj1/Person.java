@@ -7,29 +7,71 @@ package com.gss.proj1;
 @javax.persistence.Entity
 public class Person implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    @javax.persistence.GeneratedValue(generator = "PERSON_ID_GENERATOR", strategy = javax.persistence.GenerationType.AUTO)
-    @javax.persistence.Id
-    @javax.persistence.SequenceGenerator(sequenceName = "PERSON_ID_SEQ", name = "PERSON_ID_GENERATOR")
-    private java.lang.Long id;
+	@javax.persistence.GeneratedValue(generator = "PERSON_ID_GENERATOR", strategy = javax.persistence.GenerationType.AUTO)
+	@javax.persistence.Id
+	@javax.persistence.SequenceGenerator(sequenceName = "PERSON_ID_SEQ", name = "PERSON_ID_GENERATOR")
+	private java.lang.Long id;
 
-    public Person() {
-    }
-    
-    public Person(java.lang.Long id) {
-        this.id = id;
-    }
+	private java.lang.String name;
 
-    public java.lang.Long getId() {
-        return this.id;
-    }
-    
-    public void setId(java.lang.Long id) {
-        this.id = id;
-    }
+	private int age;
 
+	private boolean adult;
 
+	private java.lang.String address;
 
+	public Person() {
+	}
+
+	public java.lang.Long getId() {
+		return this.id;
+	}
+
+	public void setId(java.lang.Long id) {
+		this.id = id;
+	}
+
+	public java.lang.String getName() {
+		return this.name;
+	}
+
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public int getAge() {
+		return this.age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
+	public boolean isAdult() {
+		return this.adult;
+	}
+
+	public void setAdult(boolean adult) {
+		this.adult = adult;
+	}
+
+	public java.lang.String getAddress() {
+		return this.address;
+	}
+
+	public void setAddress(java.lang.String address) {
+		this.address = address;
+	}
+
+	public Person(java.lang.Long id, java.lang.String name, int age,
+			boolean adult, java.lang.String address) {
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.adult = adult;
+		this.address = address;
+	}
 
 }
