@@ -78,12 +78,12 @@
         <bpmn2:sourceRef>_4F36E121-36B1-424A-BF77-0DBB9EA81D66__userOutputX</bpmn2:sourceRef>
         <bpmn2:targetRef>user</bpmn2:targetRef>
       </bpmn2:dataOutputAssociation>
-      <bpmn2:potentialOwner id="363d80e5-b19c-4e64-b6c6-d3d1f4a5304c">
+      <bpmn2:potentialOwner id="_363d80e5-b19c-4e64-b6c6-d3d1f4a5304c">
         <bpmn2:resourceAssignmentExpression id="_bj7IfTgyEeqNs5BTl7lR0Q">
           <bpmn2:formalExpression id="_bj7IfjgyEeqNs5BTl7lR0Q">adminUser</bpmn2:formalExpression>
         </bpmn2:resourceAssignmentExpression>
       </bpmn2:potentialOwner>
-      <bpmn2:potentialOwner id="8d8c80d8-f5b2-4f7c-8fae-a0da837aef67">
+      <bpmn2:potentialOwner id="_8d8c80d8-f5b2-4f7c-8fae-a0da837aef67">
         <bpmn2:resourceAssignmentExpression id="_bj7IfzgyEeqNs5BTl7lR0Q">
           <bpmn2:formalExpression id="_bj7IgDgyEeqNs5BTl7lR0Q">kieuser</bpmn2:formalExpression>
         </bpmn2:resourceAssignmentExpression>
