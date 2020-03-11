@@ -45,11 +45,6 @@
       <version>7.14.0.Final-redhat-00002</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>org.hibernate</groupId>
-      <artifactId>hibernate-core</artifactId>
-      <version>5.3.7.Final-redhat-00001</version>
-    </dependency>
   </dependencies>
   <build>
     <plugins>
